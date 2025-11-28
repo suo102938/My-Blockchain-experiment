@@ -82,7 +82,7 @@ note:以上是已在本地部署TuGraph的启动步骤，作者使用阿里云�
 ### 5.1 基础查询 (READ)
 **场景：** 随机查询图谱中的 10 个交易节点，查看其基本结构。
 **Cypher 语句：**
-```cypher
+cypher
 MATCH (n:Account) 
 RETURN n 
 LIMIT 10
